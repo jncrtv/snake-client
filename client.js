@@ -16,11 +16,13 @@ const connect = function() {
     console.log('Successfuly connected to game server');
 
     conn.write('Name: SNK');
-
+   
   });
   
   
   return conn;
 }
+
+
 
 module.exports = connect;
